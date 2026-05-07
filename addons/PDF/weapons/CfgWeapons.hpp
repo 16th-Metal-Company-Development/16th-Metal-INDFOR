@@ -274,7 +274,7 @@ class CfgWeapons
 		displayname = "[PDF] DLA-13 Rifle";
 		descriptionShort = "Old Republic Rifle";
 		baseWeapon = "MET_PDF_DLA13";
-		scope = 2;
+		scope = 1;
 		model = "\SFA_Main\SFA_Weapons_S\DLA13\DLA13.p3d";
 		picture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
 		UiPicture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
@@ -286,7 +286,7 @@ class CfgWeapons
 		displayname = "[PDF] DLA-13 Carbine";
 		descriptionShort = "Old Republic Rifle";
 		baseWeapon = "MET_PDF_DLA13_Carbine";
-		scope = 2;
+		scope = 1;
 		model = "\SFA_Main\SFA_Weapons_S\DLA13\DLA13_c.p3d";
 		picture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
 		UiPicture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
@@ -304,7 +304,7 @@ class CfgWeapons
 		displayname = "[PDF] DLA-13 Carbine (GL)";
 		descriptionShort = "Old Republic Rifle";
 		baseWeapon = "MET_PDF_DLA13_GL";
-		scope = 2;
+		scope = 1;
 		model = "\SFA_Main\SFA_Weapons_S\DLA13\DLA13_gl.p3d";
 		picture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
 		UiPicture = "\SFA_Main\SFA_Weapons_S\DLA13\data\ui\DLA13_ui.paa";
@@ -680,7 +680,7 @@ class CfgMagazines
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 1;
 
-		scope = 2;
+		scope = 1;
 		author = "Chet";
 		modelSpecialIsProxy = 0;
 		picture = "\3AS\3AS_Weapons\Data\UI\3as_ammo_r.paa";
@@ -700,7 +700,7 @@ class CfgMagazines
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 1;
 
-		scope = 2;
+		scope = 1;
 		author = "Chet";
 		modelSpecialIsProxy = 0;	
 		picture = "\3AS\3AS_Weapons\Data\UI\3as_pistol_r.paa";
@@ -722,7 +722,7 @@ class CfgMagazines
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 1;
 
-		scope = 2;
+		scope = 1;
 		author = "Chet";	
 		modelSpecialIsProxy = 0;
 		picture = "\3AS\3AS_Weapons\Data\UI\3as_box_r.paa";
