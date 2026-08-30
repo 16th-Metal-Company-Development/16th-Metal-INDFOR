@@ -95,7 +95,7 @@ class CfgVehicles
 		availableForSupportTypes[]={};
 		hiddenSelectionsTextures[]=
 		{
-			"z\MET\addons\units\bha\vehicles\fixedwing\data\XC01_Main_co.paa"
+			"z\MET\addons\BHA\vehicles\fixedwing\data\XC01_Main_co.paa"
 		};
 		weapons[]=
 		{

@@ -229,7 +229,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"z\MET\addons\units\bha\vehicles\heli\data\hull_co.paa",
+			"z\MET\addons\BHA\vehicles\heli\data\hull_co.paa",
 			"SFA_Main\SFA_Vehicles_S\Dragonfly\data\interior_co",
 			"SFA_Main\SFA_Vehicles_S\Dragonfly\data\turret_co"
 		};

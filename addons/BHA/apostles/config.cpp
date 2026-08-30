@@ -46,18 +46,18 @@ class CfgVehicles
 		};
 		Magazines[]=
 		{
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -69,18 +69,18 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -188,15 +188,15 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Apostle.jpg";
 		Weapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
@@ -209,28 +209,28 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Ascended.jpg";
 		Weapons[]=
 		{
-			"MET_X300_Sniper",
-			"MET_D200",
+			"BHA_X300_Sniper",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_X300_Sniper",
-			"MET_D200",
+			"BHA_X300_Sniper",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -242,14 +242,14 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_X300_Sniper_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_X300_Sniper_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -270,25 +270,25 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Immortal.jpg";
 		Weapons[]=
 		{
-			"MET_T20_AC",
-			"MET_D200",
+			"BHA_T20_AC",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_AC",
-			"MET_D200",
+			"BHA_T20_AC",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_T20AC_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20AC_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -300,12 +300,12 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_T20AC_mag",
-			"MET_T20AC_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20AC_mag",
+			"BHA_T20AC_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -326,15 +326,15 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Diviner.jpg";
 		Weapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
@@ -348,27 +348,27 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Decimator.jpg";
 		Weapons[]=
 		{
-			"MET_E403",
-			"MET_D200",
+			"BHA_E403",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_E403",
-			"MET_D200",
+			"BHA_E403",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_heavy_proton_mag",
-			"MET_heavy_proton_mag",
-			"MET_heavy_proton_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AA_Single",
@@ -384,13 +384,13 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_heavy_proton_mag",
-			"MET_heavy_proton_mag",
-			"MET_heavy_proton_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_heavy_proton_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AP_SINGLE",
@@ -414,34 +414,34 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Decimator.jpg";
 		Weapons[]=
 		{
-			"MET_T20_rifle",
+			"BHA_T20_rifle",
 			"MET_HH12_SMRT",
-			"MET_D200",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_rifle",
+			"BHA_T20_rifle",
 			"MET_HH12_SMRT",
-			"MET_D200",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AA_Single",
@@ -457,18 +457,18 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_T20_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
-			"MET_D200_Pistol_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_T20_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
+			"BHA_D200_Pistol_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AP_SINGLE",
@@ -491,15 +491,15 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Archbishop.jpg";
 		Weapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_rifle",
-			"MET_D200",
+			"BHA_T20_rifle",
+			"BHA_D200",
 			"Put",
 			"Throw"
 		};

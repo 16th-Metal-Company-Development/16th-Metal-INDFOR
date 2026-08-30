@@ -1250,10 +1250,10 @@ class CfgVehicles
 		};
         class TransportMagazines
 		{
-			class _xx_MET_T20AC_mag
+			class _xx_BHA_EL34_mag
 			{
 				count=5;
-				magazine="MET_EL34_mag";
+				magazine="BHA_EL34_mag";
 			};
 		};
 	};
@@ -1340,10 +1340,10 @@ class CfgVehicles
 		maximumLoad=300;
         class TransportMagazines
 		{
-			class _xx_MET_FHR1_mag
+			class _xx_BHA_FHR1_mag
 			{
 				count=5;
-				magazine="MET_FHR1_mag";
+				magazine="BHA_FHR1_mag";
 			};
 		};
 	};
@@ -1414,10 +1414,10 @@ class CfgVehicles
 		maximumLoad=800;
 		class TransportMagazines
 		{
-			class _xx_MET_T20AC_mag
+			class _xx_BHA_T20AC_mag
 			{
 				count=5;
-				magazine="MET_T20AC_mag";
+				magazine="BHA_T20AC_mag";
 			};
 		};
     };
@@ -1431,10 +1431,10 @@ class CfgVehicles
 		maximumLoad=800;
 		class TransportMagazines
 		{
-			class _xx_MET_heavy_proton_mag
+			class _xx_BHA_heavy_proton_mag
 			{
 				count=2;
-				magazine="MET_heavy_proton_mag";
+				magazine="BHA_heavy_proton_mag";
 			};
 		};
     };

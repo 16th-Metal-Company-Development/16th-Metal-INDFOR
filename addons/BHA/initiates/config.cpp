@@ -1092,27 +1092,27 @@ class CfgVehicles
 		backpack="MET_Backpack_Warbot";
 		Weapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -1125,15 +1125,15 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -1264,15 +1264,15 @@ class CfgVehicles
 		};
 		Magazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -1285,15 +1285,15 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
@@ -1496,13 +1496,13 @@ class CfgVehicles
 		backpack="MET_Backpack_WD_Black";
 		Weapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
@@ -1536,29 +1536,29 @@ class CfgVehicles
 		backpack="MET_Backpack_ATWD_Black";
 		Weapons[]=
 		{
-			"MET_DLA13_C2",
-			"MET_HH12_SMRT",
+			"BHA_DLA13_C2",
+			"BHA_HH12_SMRT",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"BHA_ini_ariflMET_DLA13_C2e_MSBS65_black_F",
-			"MET_HH12_SMRT",
+			"BHA_ini_ariflBHA_DLA13_C2e_MSBS65_black_F",
+			"BHA_HH12_SMRT",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AP_SINGLE",
@@ -1573,15 +1573,15 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
-			"MET_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
+			"BHA_DLA13_mag",
 			"BHA_AT_Single",
 			"BHA_AT_Single",
 			"BHA_AP_SINGLE",
