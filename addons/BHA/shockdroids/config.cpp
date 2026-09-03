@@ -490,12 +490,14 @@ class CfgVehicles
 		};
 		Magazines[]=
 		{
+			"IDA_grenade_Imploder_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black"
 		};
 		respawnMagazines[]=
 		{
+			"IDA_grenade_Imploder_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black"
@@ -590,6 +592,7 @@ class CfgVehicles
 			"BHA_E1_mag",
 			"BHA_E1_mag",
 			"BHA_E1_mag",
+			"IDA_grenade_Imploder_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -606,6 +609,7 @@ class CfgVehicles
 			"BHA_E1_mag",
 			"BHA_E1_mag",
 			"BHA_E1_mag",
+			"IDA_grenade_Imploder_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -727,6 +731,7 @@ class CfgVehicles
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
+			"IDA_grenade_Imploder_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -743,6 +748,7 @@ class CfgVehicles
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
+			"IDA_grenade_Imploder_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -869,6 +875,7 @@ class CfgVehicles
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
+			"IDA_grenade_Imploder_mag",
 			"BHA_light_proton_mag",
 			"BHA_light_proton_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -887,6 +894,7 @@ class CfgVehicles
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
 			"BHA_DCX19_mag",
+			"IDA_grenade_Imploder_mag",
 			"BHA_light_proton_mag",
 			"BHA_light_proton_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -1006,12 +1014,14 @@ class CfgVehicles
 		};
 		Magazines[]=
 		{
+			"IDA_grenade_Imploder_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black"
 		};
 		respawnMagazines[]=
 		{
+			"IDA_grenade_Imploder_mag",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black",
 			"MET_Smoke_Black"
