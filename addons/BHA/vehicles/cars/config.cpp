@@ -785,8 +785,8 @@ class CfgVehicles
 					"BHA_30Rnd_Mass_Driver_shells",
 					"BHA_30Rnd_Mass_Driver_shells",
 					"BHA_AP_OCT",
-					"MET_vic_proton_mag",
-					"MET_vic_proton_mag"
+					"BHA_vic_proton_mag",
+					"BHA_vic_proton_mag"
 				};
 				memoryPointLRocket="L raketa";
 				memoryPointRRocket="P raketa";
