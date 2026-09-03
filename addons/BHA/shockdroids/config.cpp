@@ -2,6 +2,11 @@ class CfgPatches
 {
 	class BHA_ShockDroids
 	{
+		requiredAddons[]=
+		{
+			"cba_main",
+			"WBK_IMS_Mechanics"
+		};
 		units[]=
 		{
 			"BHA_Legionnaire_Worker",
@@ -314,17 +319,17 @@ class CfgVehicles
 		//editorPreview="\HDC_Units_mod\data\Editor Previews\BHA\Apostles\BHA_Apostles_Apostle.jpg";
 		Weapons[]=
 		{
-			"IDA_StunStick",
+			"OPTRE_Humbler_Lethal",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"IDA_StunStick",
+			"OPTRE_Humbler_Lethal",
 			"Put",
 			"Throw"
 		};
-		class EventHandlers
+		class EventHandlers: EventHandlers
 		{
 			killed = "_unit = _this select 0; if (local _unit) then { _explosive = 'DemoCharge_Remote_Ammo_Scripted' createVehicle (getPosATL _unit); _explosive setDamage 1; };";
 		};
@@ -360,13 +365,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_BHALasRifle",
+			"BHA_BHALasRifle",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_BHALasRifle",
+			"BHA_BHALasRifle",
 			"Put",
 			"Throw"
 		};
@@ -392,7 +397,7 @@ class CfgVehicles
 			"None",
 			"BHA_WarBotHeadWorker"
 		};
-		class EventHandlers
+		class EventHandlers: EventHandlers
 		{
 			killed = "_unit = _this select 0; if (local _unit) then { _explosive = 'DemoCharge_Remote_Ammo_Scripted' createVehicle (getPosATL _unit); _explosive setDamage 1; };";
 		};
@@ -566,25 +571,25 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -594,13 +599,13 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -703,25 +708,25 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DCX_19_FS_BHA",
+			"BHA_DCX_19_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DCX_19_FS_BHA",
+			"BHA_DCX_19_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -731,13 +736,13 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -845,27 +850,27 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DCX_19_GL_FS_BHA",
+			"BHA_DCX_19_GL_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DCX_19_GL_FS_BHA",
+			"BHA_DCX_19_GL_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_light_proton_mag",
-			"MET_light_proton_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_light_proton_mag",
+			"BHA_light_proton_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -875,15 +880,15 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_DCX19_mag",
-			"MET_light_proton_mag",
-			"MET_light_proton_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_DCX19_mag",
+			"BHA_light_proton_mag",
+			"BHA_light_proton_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -1082,25 +1087,25 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
 		Magazines[]=
 		{
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -1110,13 +1115,13 @@ class CfgVehicles
 		};
 		respawnMagazines[]=
 		{
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
-			"MET_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
+			"BHA_E1_mag",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
 			"MET_Weapons_Mags_Thermal_Detonator",
@@ -1191,13 +1196,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DLA13",
+			"BHA_DLA13",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13",
+			"BHA_DLA13",
 			"Put",
 			"Throw"
 		};
@@ -1242,13 +1247,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DLA13_C",
+			"BHA_DLA13_C",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13_C",
+			"BHA_DLA13_C",
 			"Put",
 			"Throw"
 		};
@@ -1293,13 +1298,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13_C2",
+			"BHA_DLA13_C2",
 			"Put",
 			"Throw"
 		};
@@ -1344,13 +1349,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DLA13_ugl",
+			"BHA_DLA13_ugl",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DLA13_ugl",
+			"BHA_DLA13_ugl",
 			"Put",
 			"Throw"
 		};
@@ -1395,13 +1400,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_E1_Reforged",
+			"BHA_E1_Reforged",
 			"Put",
 			"Throw"
 		};
@@ -1497,13 +1502,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DCX_19_FS_BHA",
+			"BHA_DCX_19_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DCX_19_FS_BHA",
+			"BHA_DCX_19_FS_BHA",
 			"Put",
 			"Throw"
 		};
@@ -1548,13 +1553,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_DCX_19_GL_FS_BHA",
+			"BHA_DCX_19_GL_FS_BHA",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_DCX_19_GL_FS_BHA",
+			"BHA_DCX_19_GL_FS_BHA",
 			"Put",
 			"Throw"
 		};
@@ -1599,13 +1604,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_T20_rifle",
+			"BHA_T20_rifle",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_rifle",
+			"BHA_T20_rifle",
 			"Put",
 			"Throw"
 		};
@@ -1650,13 +1655,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_T20_AC",
+			"BHA_T20_AC",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_T20_AC",
+			"BHA_T20_AC",
 			"Put",
 			"Throw"
 		};
@@ -1701,13 +1706,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_E403",
+			"BHA_E403",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_E403",
+			"BHA_E403",
 			"Put",
 			"Throw"
 		};
@@ -1752,13 +1757,13 @@ class CfgVehicles
 		};
 		Weapons[]=
 		{
-			"MET_EL34",
+			"BHA_EL34",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[]=
 		{
-			"MET_EL34",
+			"BHA_EL34",
 			"Put",
 			"Throw"
 		};
@@ -1920,18 +1925,47 @@ class CfgGroups
 };
 class Extended_InitPost_EventHandlers
 {
+	class CAManBase
+	{
+		class IMS_WBK_AiBash
+		{
+			init="_unit = _this select 0; if (local _unit) then {_unit call WBK_DeleteAllSoundSource; _unit call WBK_AI_BashRifle;};";
+			exclude[]=
+			{
+				"B_soldier_Melee",
+				"B_soldier_Melee_RUSH",
+				"B_soldier_Melee_Hybrid",
+				"BHA_Legionnaire_Worker",
+				"BHA_Legionnaire_Worker_Heavy"
+			};
+		};
+	};
 	class BHA_Legionnaire_Worker
 	{
-		class AI_Melee_O_Rush_init
+		class IMS_WBK_MeleeAI_LoadRushBeh
 		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit] execVM ""\WebKnight_StarWars_Mechanic\AI_Ims_Rush.sqf"";};";
+			// Mark worker droids as Rush archetype before the melee brain starts.
+			init="_unit = _this select 0; if (local _unit) then {_unit setVariable ['IMS_Rush',true];};";
+		};
+		class IMS_WBK_MeleeAI
+		{
+			// This starts IMS melee AI, matching the WBK/1400AD initialization pattern.
+			onRespawn="true";
+			init="_unit = _this select 0; if (local _unit) then {_unit spawn IMS_AI_RegularMelee;};";
 		};
 	};
 	class BHA_Legionnaire_Worker_Heavy
 	{
-		class AI_Melee_O_Rush_init
+		class IMS_WBK_MeleeAI_LoadRushBeh
 		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit] execVM ""\WebKnight_StarWars_Mechanic\AI_Ims_Rush.sqf"";};";
+			// Heavy workers use the same rush flag for consistent behavior.
+			init="_unit = _this select 0; if (local _unit) then {_unit setVariable ['IMS_Rush',true];};";
+		};
+		class IMS_WBK_MeleeAI
+		{
+			// Explicitly re-run on this class so heavy variants always initialize melee AI.
+			onRespawn="true";
+			init="_unit = _this select 0; if (local _unit) then {_unit spawn IMS_AI_RegularMelee;};";
 		};
 	};
 };

@@ -20,13 +20,13 @@ class CfgPatches
 };
 class CfgVehicles
 {
-    class 3AS_HeavyRepeater_Base
+    /*class 3AS_HeavyRepeater_Base
     {
         class Turrets
         {
             class MainTurret;
         };
-    };
+    };*/
 	
 	class Land;
 	class LandVehicle: Land
@@ -74,7 +74,7 @@ class CfgVehicles
 	{
 		class SimpleObject;
 	};
-	class BHA_HeavyRepeater_Armoured: 3AS_HeavyRepeater_Base
+	/*class BHA_HeavyRepeater_Armoured: 3AS_HeavyRepeater_Base
 	{
 		author="$STR_3AS_Studio";
 		editorPreview="\3as\3as_static\images\3AS_HeavyRepeater_Armoured.jpg";
@@ -142,8 +142,8 @@ class CfgVehicles
 			{
 				"3AS_Republic_HR_Shield_Bag"
 			};
-		};*/
-	};
+		};
+	};*/
 	class BHA_Mortar: B_Mortar_01_F
 	{
 		author="$STR_3AS_Studio";
@@ -213,8 +213,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-            "z\MET\addons\units\bha\vehicles\turrets\data\black_base_co.paa",
-			"z\MET\addons\units\bha\vehicles\turrets\data\black_tube_co.paa"
+            "z\MET\addons\BHA\vehicles\turrets\data\black_base_co.paa",
+			"z\MET\addons\BHA\vehicles\turrets\data\black_tube_co.paa"
 		};
 		hiddenSelectionsMaterials[]=
 		{
@@ -310,7 +310,7 @@ class CfgVehicles
 			"camoScreen"
         };
         hiddenSelectionsTextures[] = {
-			"z\MET\addons\units\bha\vehicles\turrets\data\mortar_co_fuq_dat.paa",
+			"z\MET\addons\BHA\vehicles\turrets\data\mortar_co_fuq_dat.paa",
             "OPTRE_Weapons_Turrets\au_44_mortar\data\computer_screen.paa"
         };
         hiddenSelectionsMaterials[] = {
@@ -346,8 +346,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"z\MET\addons\units\bha\vehicles\turrets\data\aa gun_co.paa",
-			"z\MET\addons\units\bha\vehicles\turrets\data\capsules_co.paa"
+			"z\MET\addons\BHA\vehicles\turrets\data\aa gun_co.paa",
+			"z\MET\addons\BHA\vehicles\turrets\data\capsules_co.paa"
 		};
 		class Turrets: Turrets
 		{

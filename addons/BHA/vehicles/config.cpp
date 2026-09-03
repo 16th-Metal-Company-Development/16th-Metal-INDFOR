@@ -2345,7 +2345,7 @@ class CfgMagazines
 		muzzleImpulseFactor[]={0.5,3};
 	};
 	class SFA_Base_mag;
-	class MET_vic_proton_mag: SFA_Base_mag
+	class BHA_vic_proton_mag: SFA_Base_mag
 	{
 		scope=2;
 		scopeArsenal=0;
@@ -2356,7 +2356,7 @@ class CfgMagazines
 		displayName="E403 Heavier Proton mag";
 		displayNameShort="";
 		descriptionShort="";
-		ammo="MET_gl_orange";
+		ammo="BHA_25HE_orange";
 		tracersEvery=1;
 		initSpeed=320;
 		mass=400;
@@ -2693,6 +2693,7 @@ class MGun;
 class GunParticles;
 class LMG_M200;
 class autocannon_Base_F;
+class CannonCore;
 class CfgWeapons
 {
 	/*class HMG_127;
@@ -2795,7 +2796,6 @@ class CfgWeapons
 			"BHA_200Rnd_338_Orange_Mag"
 		};
 	};*/
-    class CannonCore;
 	class MET_autocannon_Base_F: CannonCore
 	{
 		scope=1;
@@ -4439,7 +4439,7 @@ class CfgWeapons
 	class BHA_E403_Vic: HMG_127
 	{
 		displayName = "GMG";
-		magazines[] = { "MET_heavy_proton_mag", "MET_vic_proton_mag" };
+		magazines[] = { "BHA_heavy_proton_mag", "BHA_vic_proton_mag" };
 		reloadTime = 0.1;
 		autoFire = 1;
 		cursor = "mg";
@@ -5520,11 +5520,253 @@ class CfgWeapons
 		cursor="EmptyCursor";
 		cursorAim="missile";
 	};
-	class SFA_Cannons_Base
+	class BHA_Cannons_Base: CannonCore
 	{
-		class Manual;
+		class GunClouds
+		{
+		};
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_01",
+			0.2818383,
+			1,
+			10
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_02",
+			0.2818383,
+			1,
+			10
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_03",
+			0.2818383,
+			1,
+			10
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_04",
+			0.2818383,
+			1,
+			10
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Dirt_01",
+			0.2818383,
+			1,
+			10
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Dirt_02",
+			0.2818383,
+			1,
+			10
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Dirt_03",
+			0.2818383,
+			1,
+			10
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Dirt_04",
+			0.2818383,
+			1,
+			10
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Grass_01",
+			0.2818383,
+			1,
+			10
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Grass_02",
+			0.2818383,
+			1,
+			10
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Grass_03",
+			0.2818383,
+			1,
+			10
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Grass_04",
+			0.2818383,
+			1,
+			10
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.079999998,
+			"bullet2",
+			0.083999999,
+			"bullet3",
+			0.083999999,
+			"bullet4",
+			0.083999999,
+			"bullet5",
+			0.093000002,
+			"bullet6",
+			0.093000002,
+			"bullet7",
+			0.074000001,
+			"bullet8",
+			0.074000001,
+			"bullet9",
+			0.083999999,
+			"bullet10",
+			0.085000001,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		class GunParticles
+		{
+		};
+		scope=1;
+		displayName="Cannons";
+		magazines[]=
+		{
+			"SFA_MassDriver_AP_x25",
+			"SFA_MassDriver_HE_x25"
+		};
+		magazineReloadTime=3;
+		modes[]=
+		{
+			"manual",
+			"close",
+			"short",
+			"medium",
+			"far"
+		};
+		canLock=0;
+		ballisticsComputer="2 + 16";
+		FCSMaxLeadSpeed=0;
+		FCSZeroingDelay=1;
+		maxZeroing=1500;
+		aiDispersionCoefY=3;
+		aiDispersionCoefX=3;
+		ace_overpressure_angle=90;
+		ace_overpressure_range=10;
+		ace_overpressure_damage=0.85000002;
+		displayNameShort="HEAT";
+		class manual: MGun
+		{
+			displayName="$STR_A3_LMG_RCWS0";
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class StandardSound
+			{
+				begin1[]=
+				{
+					"SFA_Main\SFA_Vehicles_R\data\Firebrand\SFX\weapons_heavy.wav",
+					2.5,
+					0.94999999,
+					10000
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					1
+				};
+			};
+			soundContinuous=0;
+			soundBurst=0;
+			reloadTime=2;
+			dispersion=0.0016;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=10;
+			minRange=0;
+			minRangeProbab=0.0099999998;
+			midRange=1;
+			midRangeProbab=0.0099999998;
+			maxRange=2;
+			maxRangeProbab=0.0099999998;
+		};
+		class close: manual
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=8;
+			burstRangeMax=16;
+			aiRateOfFire=0.5;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.80000001;
+			midRange=20;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.2;
+		};
+		class short: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=6;
+			burstRangeMax=12;
+			aiRateOfFire=1;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=150;
+			minRange=20;
+			minRangeProbab=0.69999999;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=300;
+			maxRangeProbab=0.2;
+		};
+		class medium: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=12;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=250;
+			minRange=150;
+			minRangeProbab=0.69999999;
+			midRange=600;
+			midRangeProbab=0.64999998;
+			maxRange=800;
+			maxRangeProbab=0.1;
+		};
+		class far: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=3;
+			burstRangeMax=8;
+			aiRateOfFire=4;
+			aiRateOfFireDispersion=4;
+			aiRateOfFireDistance=600;
+			minRange=600;
+			minRangeProbab=0.64999998;
+			midRange=800;
+			midRangeProbab=0.40000001;
+			maxRange=1200;
+			maxRangeProbab=0.1;
+		};
 	};
-	class BHA_Heavy_Cannon: SFA_Cannons_Base
+	class BHA_Heavy_Cannon: BHA_Cannons_Base
 	{
 		scope=1;
 		displayName="Heavy Blaster Cannon";
@@ -5653,7 +5895,7 @@ class CfgWeapons
 			maxRangeProbab=0.1;
 		};
 	};
-	class BHA_weapon_Cannon_low: SFA_Cannons_Base
+	class BHA_weapon_Cannon_low: BHA_Cannons_Base
 	{
 		magazineWell[]={};
 		magazines[]=
@@ -5755,7 +5997,7 @@ class CfgWeapons
 		};
 		class StandardSound {
 			begin1[] = {
-			"z\MET\addons\units\bha\vehicles\turrets\sounds\emplaced_at_gun.ogg",
+			"z\MET\addons\BHA\vehicles\turrets\sounds\emplaced_at_gun.ogg",
 			1,
 			1,
 			1500
