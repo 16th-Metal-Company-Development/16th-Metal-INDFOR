@@ -359,7 +359,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_DLA13_Fried";
 		displayName = "[PDF] Fried DLA-13 Rifle";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -377,7 +377,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_DLA13_Carbine_Fried";
 		displayName = "[PDF] Fried DLA-13 Carbine";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -395,7 +395,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_DLA13_Carbine_Fried";
 		displayName = "[PDF] Fried DLA-13 Carbine (GL)";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -414,7 +414,7 @@ class CfgWeapons
 	{
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 0;
-		LTS_friedItem = "MET_PDF_KE7_Fried";
+		JLTS_friedItem = "MET_PDF_KE7_Fried";
 		JLTS_repairTime = 30;	
 		displayName = "[PDF] KE-7 Pistol";
 		author = "Chet";
@@ -451,7 +451,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_KE7_Fried";
 		displayName = "[PDF] Fried KE-7 Pistol";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -470,7 +470,7 @@ class CfgWeapons
 	{
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 0;
-		LTS_friedItem = "MET_PDF_T20_Fried";
+		JLTS_friedItem = "MET_PDF_T20_Fried";
 		JLTS_repairTime = 30;
 		displayName = "[PDF] T20 Light Repeating Blaster";
 		author = "Chet";
@@ -598,7 +598,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_T20_Fried";
 		displayName = "[PDF] Fried T20 Light Repeating Blaster";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -615,9 +615,10 @@ class CfgWeapons
 	class IDA_773Firepuncher;
 	class MET_PDF_773 : IDA_773Firepuncher
 	{
+		scope = 2;
 		JLTS_hasElectronics = 1;
 		JLTS_hasEMPProtection = 0;
-		LTS_friedItem = "MET_PDF_773_Fried";
+		JLTS_friedItem = "MET_PDF_773_Fried";
 		JLTS_repairTime = 30;
 		displayName = "[PDF] 773-Firepuncher Rifle";
 		author = "Chet";
@@ -630,7 +631,7 @@ class CfgWeapons
 		baseWeapon = "MET_PDF_773_Fried";
 		displayName = "[PDF] Fried 773-Firepuncher Rifle";
 		descriptionShort = "$STR_JLTS_descs_BlasterFried";
-		scope = 1;
+		scope = 0;
 		magazines[] = {};
 		magazineWell[] = {};
 		JLTS_isFried = 1;
@@ -670,84 +671,4 @@ class CfgMagazineWells
 		};
 	};
 
-};
-
-class CfgMagazines
-{
-	class CA_Magazine;
-	class MET_PDF_DLA13_Mag : CA_Magazine
-	{
-		JLTS_hasElectronics = 1;
-		JLTS_hasEMPProtection = 1;
-
-		scope = 1;
-		author = "Chet";
-		modelSpecialIsProxy = 0;
-		picture = "\3AS\3AS_Weapons\Data\UI\3as_ammo_r.paa";
-		model = "\A3\weapons_F\ammo\mag_univ.p3d";
-		modelspecial = "";
-		count = 60;
-		displayName = "[PDF] DLA-13 Energy Cell";
-		displayNameShort = "Energy Cell";
-		descriptionShort = "Energy cell for the DLA-13 Rifle and Carbine </br>Ammo Count=60";
-		ammo = "MET_blasterbolt_Red";
-		tracersEvery = 1;
-		
-	};
-
-	class MET_PDF_KE7_Mag : CA_Magazine
-	{
-		JLTS_hasElectronics = 1;
-		JLTS_hasEMPProtection = 1;
-
-		scope = 1;
-		author = "Chet";
-		modelSpecialIsProxy = 0;	
-		picture = "\3AS\3AS_Weapons\Data\UI\3as_pistol_r.paa";
-		model = "\A3\weapons_F\ammo\mag_univ.p3d";
-		modelspecial = "";
-		count = 20;
-		displayName = "[PDF] KE-7 Energy Cell";
-		displayNameShort = "KE-7 Energy Cell";
-		descriptionShort = "Low Power Energy Cell for the KE-7";
-		ammo = "MET_blasterbolt_low_Red";
-		tracersEvery = 1;
-
-		initSpeed = 250;
-		mass = 2;
-	};
-
-	class MET_PDF_T20_Mag : CA_Magazine
-	{
-		JLTS_hasElectronics = 1;
-		JLTS_hasEMPProtection = 1;
-
-		scope = 1;
-		author = "Chet";	
-		modelSpecialIsProxy = 0;
-		picture = "\3AS\3AS_Weapons\Data\UI\3as_box_r.paa";
-		model = "\A3\weapons_F\ammo\mag_univ.p3d";
-		modelSpecial = "";
-		count = 150;
-		displayName = "[PDF] T20 Energy Cell";
-		displayNameShort = "T20 Energy Cell";
-		descriptionShort = "Energy cell for the T20";
-		ammo = "MET_blasterbolt_Red";	
-		tracersEvery = 1;
-
-		mass = 20;
-	};
-
-	class 1Rnd_HE_Grenade_shell;
-	class MET_PDF_DLA13_Grenade : 1Rnd_HE_Grenade_shell
-	{
-		author = "Chet";
-		count = 1;
-		displayName = "[PDF] Light Proton Grenade";
-		displayNameShort = "";
-		picture = "\SFA_Main\SFA_Weapons_R\ammo\icon\SFA_icon_mag.paa";
-		descriptionShort = "Impact Grenade";
-		ammo = "SFA_ammo_40mm_he";
-		mass = 10;
-	};
 };
