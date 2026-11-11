@@ -3,7 +3,7 @@ class cfgPatches
 	class MET_IND_PDF_Faction
 	{
 		units[] = { "MET_PDF_Engineer", "MET_PDF_Pilot", "MET_PDF_SL", "MET_PDF_Rifleman", "MET_PDF_AT", "MET_PDF_Grenadier", "MET_PDF_Marksman", "MET_PDF_MG" };
-		weapons[] = { "MET_PDF_DLA13_Base", "MET_PDF_DLA13", "MET_PDF_DLA13_Carbinearbine", "MET_PDF_DLA13_GL"};
+		weapons[] = { "MET_PDF_DLA13_Base", "MET_PDF_DLA13", "MET_PDF_DLA13_Carbine", "MET_PDF_DLA13_GL"};
 		ammo[] ={ "MET_PDF_Blasterbolt", "MET_PDF_Blasterbolt_Low"};
 		requiredVersion = 0.1;
 		skipWhenMissingDependencies=1;
@@ -150,14 +150,14 @@ class CfgVehicles
 		backpack = "B_RadioBag_01_black_F";
 		Weapons[] =
 		{
-			"MET_PDF_DLA13_Carbinearbine",
+			"MET_PDF_DLA13_Carbine",
 			"MET_PDF_KE7",
 			"Put",
 			"Throw"
 		};
 		respawnWeapons[] =
 		{
-			"MET_PDF_DLA13_Carbinearbine",
+			"MET_PDF_DLA13_Carbine",
 			"MET_PDF_KE7",
 			"Put",
 			"Throw"
@@ -286,7 +286,7 @@ class CfgVehicles
 		backpack = "PDF_AT_TKE_CamelBakV2MDBlack";
 		Weapons[] =
 		{
-			"MET_PDF_DLA13_Carbinearbine",
+			"MET_PDF_DLA13_Carbine",
 			"MET_PDF_KE7",
 			"SFA_Guided_Onslaught_Launcher",
 			"Put",
@@ -358,7 +358,7 @@ class CfgVehicles
 		backpack = "B_Rangemaster_belt_black";
 		Weapons[] =
 		{
-			"MET_PDF_DLA13_ugl",
+			"MET_PDF_DLA13_GL",
 			"MET_PDF_KE7",
 			"Put",
 			"Throw"

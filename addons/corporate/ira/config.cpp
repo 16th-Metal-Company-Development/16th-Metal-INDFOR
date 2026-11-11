@@ -28,6 +28,12 @@ class CfgPatches
 };
 class CfgVehicles
 {
+	class ls_naval_unit_base;
+	class ls_rebel_honorGuard : ls_naval_unit_base
+	{
+		modelSides[] = { 0, 1, 2, 3 };
+	};
+
 	class ls_vehicle_v35;
     class IRA_V35: ls_vehicle_v35 {
         author = "CC-1748 ""Hazmat""";

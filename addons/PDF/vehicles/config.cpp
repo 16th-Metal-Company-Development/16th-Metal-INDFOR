@@ -25,6 +25,10 @@ class CfgPatches
 };
 class CfgVehicles
 {
+    class SFA_Karagga_F;
+    class ls_vehicle_z98;
+    class FCF_Nomad;
+
     class PDF_SkiffTank: SFA_Karagga_F {
         author = "CC-1748 ""Hazmat""";
         scope = 2;
