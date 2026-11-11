@@ -90,28 +90,28 @@ class CfgVehicles
 		backpack = "";		// Which backpack the character is wearing.
 		weapons[] = { "Throw", "Put" };		// Which weapons the character has.
 		respawnWeapons[] = { "Throw", "Put" };	// Which weapons the character respawns with.
-		IItems[] =
+		Items[] =
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[] =
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"

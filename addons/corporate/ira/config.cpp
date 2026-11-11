@@ -77,26 +77,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
@@ -147,26 +147,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
@@ -227,26 +227,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
@@ -305,26 +305,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
@@ -381,26 +381,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
@@ -465,26 +465,26 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
 			"ACE_CableTie",
 			"ACE_CableTie",
 			"ACE_CableTie"
