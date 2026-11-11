@@ -138,23 +138,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -281,23 +281,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -395,23 +395,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -513,23 +513,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -615,23 +615,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -723,23 +723,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{
@@ -840,23 +840,23 @@ class CfgVehicles
 		};
 		Items[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		respawnItems[]=
 		{
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage",
-			"LFP_item_bacta_bandage"
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage",
+			"MET_LFP_BactaBandage"
 		};
 		linkedItems[]=
 		{

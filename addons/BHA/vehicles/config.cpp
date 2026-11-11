@@ -245,7 +245,7 @@ class CfgAmmo
 	class B_40mm_AP;
 	class MET_B_OrangePlasma_40_APC: B_40mm_GPR
 	{
-		hit=850;
+		hit=550;
 		indirectHit=0;
 		indirectHitRange=0;
 		explosive=0;
@@ -279,7 +279,7 @@ class CfgAmmo
 	};
 	class MET_B_OrangePlasma_40_AP: B_40mm_AP
 	{
-		hit=850;
+		hit=550;
 		indirectHit=16;
 		indirectHitRange=0.2;
 		explosive=1;
@@ -311,9 +311,9 @@ class CfgAmmo
 	{
 		aiAmmoUsageFlags="64 + 128 + 256 + 512";
 		allowAgainstInfantry=1;
-		hit=800;
-		indirectHit=60;
-		indirectHitRange=6;
+		hit=400;
+		indirectHit=40;
+		indirectHitRange=4;
 		warheadName="AP";
 		dangerRadiusHit=160;
 		suppressionRadiusHit=32;
@@ -435,7 +435,7 @@ class CfgAmmo
 	class BHA_60mm_HE_Mortar: Sh_82mm_AMOS
 	{
 		displayname="Barysaw HE Mortar Shell";
-		effectFly="MET_plasma_medium_orange";
+		effectFly="BHA_plasma_60MW_orange";
 		hit=140;
 		indirectHit=90;
 		indirectHitRange=30;
@@ -591,7 +591,7 @@ class CfgAmmo
 		displayname="Barysaw 120 MW HE Mortar Shell";
 
         model = "\OPTRE_Weapons_Turrets\AU_44_Mortar\shell_throwable.p3d";
-		effectFly="MET_plasma_large_orange";
+		effectFly="BHA_plasmaOrange_120MW";
 
         hit = 225;
         indirectHit = 100;
@@ -636,9 +636,9 @@ class CfgAmmo
 		displayname="Republic 120 MW AT Mortar Shell";
 
         model = "\OPTRE_Weapons_Turrets\AU_44_Mortar\shell_throwable.p3d";
-		effectFly="MET_plasma_large_orange";
+		effectFly="BHA_plasmaOrange_120MW";
         ace_rearm_caliber = 120;
-        submunitionAmmo[] = {"MET_gl_orange",1};//70% HE, 20% HEAT, 10% cluster
+        submunitionAmmo[] = {"BHA_25HE_orange",1};
         submunitionConeType[] = { "randomcenter", 25 };
         submunitionConeAngle = 35;
         triggerDistance = 100;
@@ -2109,7 +2109,7 @@ class CfgAmmo
 		caliber=80;
 		model="SFA_Main\SFA_Weapons_Core\tracer_yellow.p3d";
 		effectfly="MET_plasma_orange_big";
-		hit=1000;
+		hit=750;
 		explosionEffects="";
 		tracerScale=5;
 		indirectHit=15;
@@ -2952,7 +2952,8 @@ class CfgWeapons
 		magazines[] = { "MET_T20AC_mag", "MET_T20AC_vic_mag" };
 		reloadTime = 0.1;
 		autoFire = 1;
-		cursor = "mg";
+		cursor="EmptyCursor";
+		cursorAim="mg";
 		modes[] = { "manual", "close", "short", "medium" };
 		class manual: Mode_FullAuto
 		{
@@ -3030,7 +3031,8 @@ class CfgWeapons
 		magazines[] = { "MET_T20AC_mag", "MET_T20AC_vic_mag" };
 		reloadTime = 0.1;
 		autoFire = 1;
-		cursor = "mg";
+		cursor="EmptyCursor";
+		cursorAim="mg";
 		modes[] = { "manual", "close", "short", "medium" };
 		class GunParticles: GunParticles
 		{
@@ -3118,7 +3120,8 @@ class CfgWeapons
 		magazines[] = { "MET_T20AC_mag", "MET_T20AC_vic_mag" };
 		reloadTime = 0.1;
 		autoFire = 1;
-		cursor = "mg";
+		cursor="EmptyCursor";
+		cursorAim="mg";
 		modes[] = { "manual", "close", "short", "medium" };
 		class GunParticles: GunParticles
 		{
@@ -3206,7 +3209,8 @@ class CfgWeapons
 		magazines[] = { "BHA_AA_Dub", "BHA_AT_DUB", "BHA_AP_DUB" };
 		reloadTime = 2.0;
 		autoFire = 0;
-		cursor = "missile";
+		cursor="EmptyCursor";
+		cursorAim="missile";
 		/*modes[] = { "manual" };
 		class manual: Mode_SemiAuto
 		{
@@ -3248,7 +3252,8 @@ class CfgWeapons
 	class BHA_EL34_Gatling: HMG_127
 	{
 		autoFire = 1;
-		cursor = "mg";
+		cursor="EmptyCursor";
+		cursorAim="mg";
 		modes[] = { "manual", "close", "short", "medium" };
 		displayName="EL-36 Rotary Cannon";
 		magazines[] = { "MET_EL34_mag", "MET_EL34_vic_mag" };
@@ -4294,7 +4299,7 @@ class CfgWeapons
 		magazineReloadTime=6;
 		autoReload=1;
 		canLock=0;
-		ballisticsComputer="2 + 8 + 16";
+		ballisticsComputer="2 + 16";
 		FCSMaxLeadSpeed=250;
 		FCSZeroingDelay=1;
 		aiDispersionCoefY=2;
@@ -4442,7 +4447,8 @@ class CfgWeapons
 		magazines[] = { "BHA_heavy_proton_mag", "BHA_vic_proton_mag" };
 		reloadTime = 0.1;
 		autoFire = 1;
-		cursor = "mg";
+		cursor="EmptyCursor";
+		cursorAim="mg";
 		modes[] = { "manual", "close", "short", "medium" };
 		magazineReloadTime=6;
 		class GunParticles: GunParticles
@@ -4472,7 +4478,7 @@ class CfgWeapons
 				weaponSoundEffect="";
 				begin1[]=
 				{
-					"\SFA_Main\SFA_Weapons_R\E403\data\sfx\E403.ogg",
+					"\SFA_Main\SFA_Weapons_R\E403\data\sfx\E403.wav",
 					1,
 					1,
 					1800
@@ -4949,6 +4955,25 @@ class CfgWeapons
         modes[] = {"Single1", "Single2", "Single3", "Burst1", "Burst2", "Burst3"};
         class Single1: Single1
         {
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class StandardSound
+			{
+				begin1[]=
+				{
+					"z\MET\addons\vehicles\sounds\big_nuetron_3.ogg",
+					2.5118864,
+					1,
+					1500
+				};
+				soundBegin[]=
+				{
+					"begin1",
+					1
+				};
+			};
 			displayName="Single (Close)";
             artilleryDispersion = 1;
             reloadTime = 2;
@@ -5900,7 +5925,7 @@ class CfgWeapons
 		magazineWell[]={};
 		magazines[]=
 		{
-			"BHA_100Rnd_autocannon_70mm_AA_mag"
+			"MET_500Rnd_Z38_HBC"
 		};
 		displayName="[BHA] Medium Blaster Cannon";
 		modes[]=

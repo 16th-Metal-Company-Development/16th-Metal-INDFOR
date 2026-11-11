@@ -21,7 +21,7 @@ class CfgFunctions
 		tag = "BHA";
 		class turretScripts
 		{
-			file = "z\MET\addons\units\bha\vehicles\turrets\scripts";
+			file = "z\MET\addons\bha\vehicles\turrets\scripts";
 			class crew_ai_vincible{};
 			class crew_invincible{};
 			class crew_vincible{};

@@ -4517,6 +4517,48 @@ class CfgLights
 		diffuse[]={252,161,0,1};
 		intensity=10000;
 	};
+	class BHA_plasmaOrange_60MW: MET_BlasterboltLight_Blue
+	{
+		color[] = { 0,0,0,0 };
+		diffuse[]={252,161,0,1};
+		ambient[] = { 0,0,0,0.5 };
+		intensity = 30000;
+		class Attenuation
+		{
+			start = 0;
+			constant = 0;
+			linear = 0;
+			quadratic = 255;
+			hardLimitStart = "1e20 * 0.7";
+			hardLimitEnd = 1e+020;
+		};
+		dayLight = 1;
+		useFlare = 1;
+		flareSize = 3;
+		flareMaxDistance = 6000;
+		position[] = { 0,0,-1 };
+	};
+	class BHA_plasmaOrange_120MW: MET_BlasterboltLight_Blue
+	{
+		color[] = { 0,0,0,0 };
+		diffuse[]={252,101,0,1};
+		ambient[] = { 0,0,0,0.5 };
+		intensity = 200000;
+		class Attenuation
+		{
+			start = 0;
+			constant = 0;
+			linear = 0;
+			quadratic = 255;
+			hardLimitStart = "1e20 * 0.7";
+			hardLimitEnd = 1e+020;
+		};
+		dayLight = 1;
+		useFlare = 1;
+		flareSize = 5;
+		flareMaxDistance = 6000;
+		position[] = { 0,0,-1 };
+	};
 	class BHA_plasmaOrange_large: MET_BlasterboltLight_Blue
 	{
 		diffuse[]={252,161,0,1};
@@ -4599,6 +4641,30 @@ class BHA_plasma_medium_orange
 	{
 		simulation="light";
 		type="BHA_plasmaOrange_Medium";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=60;
+	};
+};
+class BHA_plasma_60MW_orange
+{
+	class BHA_Orange_plasma
+	{
+		simulation="light";
+		type="BHA_plasmaOrange_60MW";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=60;
+	};
+};
+class BHA_plasmaOrange_120MW
+{
+	class BHA_Orange_plasma
+	{
+		simulation="light";
+		type="BHA_plasmaOrange_120MW";
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
@@ -6647,7 +6713,7 @@ class CfgAmmo
 		ace_frag_classes[]={};
 		ace_frag_skip=0;
 		ace_frag_force=0;
-		hit=10000;
+		hit=1;
 		indirectHit=15;
 		indirectHitRange=1;
 		explosive=1;
@@ -6662,7 +6728,7 @@ class CfgAmmo
 	class 3AS_M_MK39_AA;
 	class bha_aa_missile_van: 3AS_M_MK39_AA
 	{
-		hit=2050;
+		hit=500;
 		indirectHit=120;
 		indirectHitRange=12;
 		warheadName="AA";
